@@ -1,0 +1,36 @@
+name: product_todo
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  dartz: ^0.10.1
+  dio: ^5.7.0
+  flashy_tab_bar2: ^0.0.10
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  get_it: ^8.0.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  i18n: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/icons/icon.png' # Ruta al nuevo ícono
